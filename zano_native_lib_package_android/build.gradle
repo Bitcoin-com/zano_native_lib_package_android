@@ -73,7 +73,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.bitcoincom'
+                groupId = 'com.github.Bitcoin-com'
                 artifactId = 'zano_native_lib_package_android'
                 version = '1.0.4'
             }
